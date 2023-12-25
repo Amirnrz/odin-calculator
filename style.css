@@ -49,3 +49,9 @@ body {
 [data-op="clear"] {
   grid-area: 4 / 3 / 4 / 5;
 }
+
+.display {
+  color: wheat;
+  font-size: 1.3rem;
+  text-shadow:  0 0 10px black;
+}
