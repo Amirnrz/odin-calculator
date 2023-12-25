@@ -6,13 +6,13 @@
 
 body {
   min-height: 100vh;
-  background: linear-gradient(160deg,rgb(237, 163, 84),rgb(230, 67, 52));
+  background: linear-gradient(160deg,rgb(237, 163, 84),rgb(215, 123, 114));
   display: grid;
   place-items: center;
 }
 
 .container {
-  box-shadow: 0 0 10px rgb(78, 41, 37);
+  box-shadow: 0 0 10px rgb(77, 77, 77);
   border-radius: 20px;
   overflow: hidden;
   display: grid;
@@ -21,7 +21,8 @@ body {
 
 .display {
   background-color: rgba(0, 0, 0,.3);
-  padding: 2rem;
+  padding-inline: 2rem;
+  padding-block: 4rem;
   display: flex;
   justify-content: flex-end;
 }
@@ -34,12 +35,13 @@ body {
 }
 
 .digits > button {
-  padding: 1rem;
+  padding: 1.5rem;
   cursor: pointer;
   border: 1px solid rgb(225, 133, 133);
   box-shadow: inset 0 0 20px #ff3b05;
   background-color: rgb(242, 149, 120);
   transition: transform .3s ease;
+  font-size: 1.2rem;
 }
 
 .digits > button:hover {
